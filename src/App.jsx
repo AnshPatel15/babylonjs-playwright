@@ -51,6 +51,8 @@ function App() {
     canvas.addEventListener("pointerup", function () {
       console.log("Mouse button released");
     });
+
+    console.log("scene ready");
   };
 
   return (
